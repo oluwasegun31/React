@@ -1,10 +1,10 @@
 import './App.css';
-import TodoApp from './TODO/Todo';
+import Quiz from './Quiz/Quiz';
 
 function App() {
   return(
     <>
-      <TodoApp />
+      <Quiz />
     </>
   )
 }
