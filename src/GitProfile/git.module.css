@@ -1,0 +1,70 @@
+.gitContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+.gitSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.gitSearch input{
+    width: 200px;
+    height: 40px;
+    border: 2px solid cadetblue;
+    outline: none;
+    border-radius: 0;
+    background-color: inherit;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.gitSearch button{
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    border: 2px solid cadetblue;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.details div{
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
